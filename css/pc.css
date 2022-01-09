@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@media (min-width:600px) {
+
+    .section_wrapper{
+        padding-top: 90px;
+        padding-bottom: 120px;
+    }
+    .section_inner{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    /* h2　サイズ指定 */
+    .bullets_mark{
+        width: 20px;
+        height: 52px;
+    }
+    .section_title_text{
+        padding-left: 15px;
+        font-size: 35px;
+    }
+
+    /* header */
+    header{
+        width: 1000px;
+        height: 70px;
+        margin: 0px auto;
+        display: flex;
+    }
+
+    header ul{
+        display: flex;
+    }
+
+    header li{
+        padding-left: 32px;
+        margin: 23px 0 23px auto;
+    }
+
+    header img{
+        height: 40px;
+        width: 197px;
+        margin: 15px auto 15px 0;
+    }
+    /* top_wrapper */
+    .top_wrapper{
+        height: 650px;
+        width: 1000px;
+        background-size: cover;
+        margin: 0 auto 120px auto;
+
+    }
+    .top_content img{
+        height: 530px;
+        width: 1000px;
+        margin: 0;
+    }
+
+    .top_title{
+        font-size: 50px;
+        line-height: 30px;
+        top: 39px;
+        right: 78px;
+    }
+
+    .top_copy{
+        font-size: 30px;
+        line-height: 30px;
+        top: 121px;
+        right: 80px;
+    }
+
+    /* section_point */
+    .section_point{
+        height: 1757px;
+    }
+    .circle{
+        width: 250px;
+        height: 250px;
+        font-size: 25px;
+        line-height: 250px;
+    }
+    .circle_list{
+        height: 250px;
+        margin-top: 90px;
+        margin-bottom: 90px;
+    }
+}
