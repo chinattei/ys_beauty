@@ -61,19 +61,181 @@
         right: 10px;
     }
 
-        /* section_point */
+    /* section_point */
+    /* section_point height　指定 */
     .section_point{
         height: 1512px;
     }
+
+    /* circle 関連 */
     .circle{
         width: 80px;
         height: 80px;
         font-size: 13px;
         line-height: 80px;
     }
+    /* 不均等の幅よせ */
     .circle_list{
         height: 80px;
         margin-top: 20px;
-        margin-bottom: 45px;
+        margin-bottom: -10px;
+    }
+
+    /* ポイント項目説明 */
+    .point_img_wrapper img{
+        width: 300px;
+        height: 200px;
+    }
+    .point_explanation{
+        width: 300px;
+        height: auto;
+        padding: 20px;
+    }
+    .point_item{
+        margin-top: 55px;
+    }
+    .explanation_title{
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .explanation_text{
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .point_logo{
+        width: 80px;
+        height: 30px;
+        line-height: 30px;
+        top: -15px;
+    }
+    .logo_copy{
+        font-size: 13px;
+    }
+
+    /* section_article */
+    .section_article{
+        height: 800px;
+    }
+    .article_list{
+        margin-top: -20px;
+    }
+    .article_item{
+        padding-top: 40px;
+    }
+    .article_text_wrapper{
+        width: 300px;
+        max-height: 194px;
+        padding: 20px;
+    }
+    .article_text_title{
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 10px;
+    }
+    .article_text{
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    /* section_product */
+    .product_wrapper{
+        text-align: center;
+    }
+    .section_product{
+        height: auto;
+    }
+    .section_product_inner{
+        padding-top: 20px;
+    }
+    /* 画像関連 */
+    .product_img_wrapper{
+        width: 300px;
+        height: 307px;
+    }
+    .content_1{
+        width: 100%;
+    }
+    .side_by_side{
+        padding-top: 10px;
+    }
+    /* テキスト関連 */
+    .product_text_wrapper{
+        padding-top: 60px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .product_title{
+        font-size: 16px;
+        line-height: 43.75px;
+        text-align: left;
+
+    }
+    .product_price{
+        font-size: 16px;
+    }
+    .product_text{
+        font-size: 13px;
+        line-height: 19px;
+        text-align: left;
+    }
+    /* btn関連 */
+    .purchase_btn{
+        width: 254px;
+        height: 55px;
+        font-size: 16px;
+    }
+    .purchase_btn::after{
+        content: "";
+        margin: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 24.5px;
+        width: 8px;
+        height: 8px;
+        border-top: 2px solid #FFFFFF;
+        border-right: 2px solid #FFFFFF;
+        transform: rotate(45deg)
+    }
+
+    /* section_form */
+    .form_list{
+        padding-top: 20px;
+    }
+    .form_label_area{
+        height: 20px;
+        text-align: left;
+    }
+    .form_label{
+        font-size: 13px;
+    }
+    .form_item{
+        margin-bottom: 25px;
+    }
+    .input_text{
+        width: 300px;
+        height: 26px;
+    }
+    .input_textarea{
+        width: 300px;
+        height: 130px;
+    }
+    .input_text,.input_textarea{
+        font-size: 13px;
+        line-height: 13px;
+        padding: 0 7px;
+        margin-top: 10px;
+    }
+    .submit_btn{
+        margin-top: 5px;
+        width: 100px;
+        height: 26px;
+        font-size: 13px;
+    }
+
+    footer{
+        height: 40px;
+        padding-top: 12px;
     }
 }
